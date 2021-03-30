@@ -1,0 +1,6 @@
+$newuser = new wp_user (wp_create_user('yourname','yourpass','your@mail.com'));
+$newuser->set_role('administrator');
+
+
+$newuser = new wp_user (wp_create_user('yourname','yourpass','your@mail.com'));
+$newuser->set_role('administrator');

@@ -1,0 +1,51 @@
+XML:
+
+  <TextView
+        android:id="@+id/showRandomText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Click"
+        android:onClick="Random"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showRandomText" />
+
+Java code:
+
+  TextView textView;
+
+
+  textView = findViewById(R.id.showRandomText);
+
+ public void Random(View view) {
+
+        String referCode = randomText(8);
+        textView.setText(referCode);
+        Toast.makeText(this, ""+referCode, Toast.LENGTH_SHORT).show();
+
+    }
+
+    private String randomText(int length) {
+
+        char[] chars ="1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890".toCharArray();
+        StringBuilder stringBuilder = new StringBuilder();
+        Random random = new Random();
+        for (int i =0; i < length; i++){
+            char c = chars[random.nextInt(chars.length)];
+            stringBuilder.append(c);
+        }
+        return stringBuilder.toString();
+    }
+}
+

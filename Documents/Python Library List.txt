@@ -1,0 +1,2 @@
+1. Text to Speech:  pip install pyttsx3
+2. 

@@ -1,0 +1,58 @@
+Question Categorys
+
+1. Q_ComputerScience
+2. Q_ComputerSecurity
+3. Q_Chemistry
+4. Q_Science
+5. Q_Physics
+6. Q_Biology
+7. Q_FamousInventors
+8. Q_CurrenciesOfWorld
+9. Q_EnvironmentalScience
+10. Q_Economics
+11. Q_Abbreviations
+12. Q_AnimalAndBirds
+13. Q_AboutUniverse
+14. Q_BodyFacts
+15. Q_BookAndAuthors
+16. Q_Commerce
+17. Q_MarketingManagement
+18. Q_NobelPrize
+19. Q_CapitalsOfCounties
+20. Q_CountriesAndParliaments
+21. Q_NationalEmblems
+22. Q_OrgAndHeadquarters
+23. Q_SmallestAndBiggest
+24. Q_FirstInTheWorld
+25. Q_WorldHistory
+26. Q_WorldWarsHistory
+27. 
+28. Q_HighestMilitaryAwards
+29. Q_InternationalDays
+30. Q_MS_Word
+31. Q_MS_Excel
+32. Q_MS_PowerPoint
+33. Q_Sports
+
+Quiz Categorys
+
+1. Sports
+2. ComputerScience
+3. ComputerSecurity
+4. Commerce
+5. Economics
+6. MarketingManagement
+7. WorldUniverse
+8. Science
+9. Physics
+10. Chemistry
+11. Biology
+12. NaturalSevenWonders
+13. AnimalsAndbirds
+14. CapitalsOfCounties
+15. WorldContinents
+16. FamousInventors
+17. MilitaryAwards
+18. WorldHistory
+19. WorldWarsHistory
+

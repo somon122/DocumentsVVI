@@ -1,0 +1,26 @@
+MoonCash:
+Banner: 159853469232992_159892379229101
+intitoii9aal: 159853469232992_159854129232926
+unity Ads:
+GameId: 3981341
+interstitial ads : interstitial
+banner ads : banner
+
+
+smileup 
+
+unityads
+game id: 3983089
+banner:	banner
+inter: interstitial
+startapp Ads: 200959755
+
+
+srmoney:
+facebook banner: 151909076736027_151909460069322
+facebook interestial: 151909076736027_151910236735911		
+unity
+gaME ID : 3983111
+BANNER : BANNER
+INT 	: INT
+startapp ads code: 200180223

@@ -1,0 +1,8 @@
+Wordpress Tutorials: https://www.youtube.com/watch?v=flG_1vvzKKs&list=PLjwm_8O3suyPYhCbBY8v4G-BOIm6ylRjZ
+
+
+১. html থেকে WordPress  এ যাওার জন্য প্রয়োজনীয় ফাইল সমূহ।
+২. ওয়ার্ডপ্রেসের হেডার ফুটার আলাদাভাবে কল করার নিয়ম
+৩. ইন কিউ (en-queue) কি জিনিস? 
+৪. ন্যাভিগেসন রেজিস্টার, সাইট বার রেজিস্টার , কাস্টম পোস্ট এগুলো জানা
+৫. যেকোন একটা ফ্রেমওয়ার্ক নিয়ে কাজ । কির্কি (kirki) ফ্রেমওয়ার্ক জানা 

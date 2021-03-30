@@ -1,0 +1,37 @@
+List<Answer> answers = new ArrayList<Answer>();
+for(int i=0; i < 4; i++){
+  Answer temp = new Answer();
+  answers.add(temp);
+}
+
+
+List<Person> list = ArrayList<Person>();
+
+for(int i = 0; i < arrNames.length; i++){
+   Person person = new Person();
+   person.setId(i + 1);
+   person.setName(arrNames[i]);
+   person.setLastname(arrLastnames[i]);
+   person.setIdentifier(arrIds[i]);
+   person.setAddress(arrAddreses[i]);
+
+   list.add(person); // adding each person object to the list.
+}
+
+phoneList = new ArrayList<>(howMany); //Adding "howMany" is optional. It just sets the List's initial size.
+
+for (int i = 0; i < howMany; i++) {
+    //...
+    phoneList.add(holding); 
+    //Don't place holding in quotation marks, else you'll just add "holding" for every entry!
+}
+
+ArrayList<WordData> unique = new ArrayList<WordData>();
+
+for(int i=0;i<3;i++)
+{
+    WordData tempWordData = new WordData(); 
+    String temp_word = word.get(i);
+    tempWordData.addWord(temp_word);
+    unique.add(tempWordData);               
+}

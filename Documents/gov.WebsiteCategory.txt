@@ -1,0 +1,9 @@
+1. departments
+2. districts
+3. divisions
+4. ministries
+5. others
+6. unions
+7. universities
+9. upozillas
+10. serch_items

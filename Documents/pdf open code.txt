@@ -1,0 +1,11 @@
+To open the pdf in browser,
+
+Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(pdf_url));
+startActivity(browserIntent);
+Instead to open in webview,
+
+ Webview webView = (WebView) findViewById(R.id.webView1);
+ webView.getSettings().setJavaScriptEnabled(true);
+ webView.loadUrl(pdf_url);
+
+https://apronseekers.xyz/public/files/pdf_file/1597218869Somon%20Hossain.pdf

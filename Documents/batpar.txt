@@ -1,0 +1,7 @@
+3.15.152.31:8090/phpmyadmin/index.php
+
+
+3.15.152.31:8090/filemanager/techrevice.com
+
+user: admin
+password: 122usman@cyberpersons.com#

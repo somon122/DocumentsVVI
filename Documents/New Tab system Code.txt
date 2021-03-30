@@ -1,0 +1,205 @@
+https://developer.android.com/guide/components/activities/recents#java
+
+When you go to Activity C form any of the activities, you can pass an extra through the intent. Then you can then retrieve that extra in Activity C and use it as desired
+
+Eg.
+
+When you go from A to C:
+
+Intent mIntent = new Intent(this, ActivityC.class); //'this' is Activity A
+mIntent.putExtra("FROM_ACTIVITY", "A"); 
+startActivity(mIntent);
+When you go from B to C:
+
+Intent mIntent = new Intent(this, ActivityC.class); //'this' is Activity B
+mIntent.putExtra("FROM_ACTIVITY", "B"); 
+startActivity(mIntent);
+Now in Activity C, you retrieve this:
+
+Intent mIntent = getIntent();
+String previousActivity= mIntent.getStringExtra("FROM_ACTIVITY");
+Then you can use
+
+if (previousActivity.equals("A")){...}
+
+                or
+if (previousActivity.equals("B")){...}
+
+As in your question.
+
+share  improve this answer  follow 
+edited Dec 26 '18 at 3:58
+
+Prags
+2,20422 gold badges1818 silver badges3131 bronze badges
+answered Aug 5 '14 at 20:36
+
+rgamber
+5,05177 gold badges4646 silver badges9191 bronze badges
+Welcome. Do read Android documentation about how to pass data between Activities and Fragments, that will be helpful to you in the long run. – rgamber Aug 5 '14 at 22:04
+add a comment
+
+
+
+
+
+Ok Here is the code but it's an example only you may need to modify the code as per your requirement. I am giving you all the files code here hope you getting answer.
+
+Your Manifest.xml file
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.dynamictab"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BlankActivity"/>
+    </application>
+
+</manifest>
+here is your activity_main.xml file for Tab activity
+
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="none" 
+                android:layout_weight="1">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dip"
+                    android:layout_marginRight="0dip" />
+            </HorizontalScrollView>
+            <Button android:id="@+id/add_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="Add"/>
+        </LinearLayout>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="2dp" />
+    </LinearLayout>
+
+</TabHost>
+Put your TabWidget into the HorizontalScrollView so when more tabs are add it can scrolling and the Add but is out side of HorizontalScrollView. Every time you click on tab it will add new tab in TabWidget.
+
+Here the code for tab_event.xml This layout will inflate and add into tab. You can change the style and its contain a single Button so you can add drawable image with text also.
+
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button_event"
+    android:clickable="true"
+    android:focusable="true"
+    android:text="Default Tab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+Here is your MainActivity.java file
+
+import android.app.TabActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.TabHost;
+import android.widget.TabHost.TabSpec;
+
+public class MainActivity extends TabActivity {
+    private static int tabIndex = 0;
+    private TabHost tabHost;
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        tabHost = getTabHost();
+
+        addTab();
+
+        ((Button)findViewById(R.id.add_tab)).setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                tabIndex++;
+                addTab();
+            }
+        });
+    }
+    private void addTab(){
+        LayoutInflater layoutInflate = LayoutInflater.from(MainActivity.this);
+
+        Button tabBtn = (Button)layoutInflate.inflate(R.layout.tab_event, null);
+        tabBtn.setText("Tab "+tabIndex);
+        Intent tabIntent = new Intent(MainActivity.this, BlankActivity.class);
+
+        setupTab(tabBtn, tabIntent,"Tab "+tabIndex);
+    }
+    protected void setupTab(View tabBtn, Intent setClass,String tag) {
+        TabSpec setContent = tabHost.newTabSpec(tag).setIndicator(tabBtn).setContent(setClass);
+        tabHost.addTab(setContent);
+    }
+}
+And here is the BlankActivity.java file
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class BlankActivity extends Activity{
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        TextView tv = new TextView(BlankActivity.this);
+        tv.setText("Blank activity");
+        setContentView(tv);
+    }
+}
+share  improve this answer  follow 
+answered Oct 31 '12 at 5:37
+
+Pratik
+29.5k1616 gold badges7979 silver badges151151 bronze badges
+In BlankActivity each time create for specific tab so in that TextView also be create new one thats way you can add WebView instead of TextView in it. Or you can just create your layout with containing addressbar, webview and searchbar and set in the blank activity – Pratik Oct 31 '12 at 7:01
+yes for individual tab container it create new instance of the Activity and you can use single xml same as. They are differently treat in memory also so no worry about it. – Pratik Oct 31 '12 at 9:02
+you can set minWidth and maxWidth in button layout as I have set as wrap_content so when more tab are created the button size was set based on text, either you set in layout_width or min or max width – Pratik Nov 1 '12 at 8:24
+let us continue this discussion in chat – NagarjunaReddy Nov 1 '12 at 10:36
+1
+TabActivity is deprecated. Better not to use it. – Braj Oct 15 '13 at 9:52 
+show 1 more comment

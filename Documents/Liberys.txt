@@ -1,0 +1,83 @@
+Slider image : implementation 'com.github.denzcoskun:ImageSlideshow:0.0.7'
+PDF Viewer: implementation "com.pdfview:pdfview-android:1.0.0"
+Animation: implementation 'com.airbnb.android:lottie:3.4.0'
+
+mdToust: transformation  'com.valdesekamdem.library:md-toast:0.9.0'
+
+Magical Library
+ compile 'com.frosquivel:magicalcamera:6.0.0'
+
+loading Library
+ implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+
+spinning Librery
+url: https://github.com/adef145/SpinningWheelAndroid
+
+ScrollView Library
+implementation 'me.zhanghai.android.fastscroll:library:1.1.5'
+compile 'com.github.volsahin:volx-recyclerview-fast-scroll:v1.0.8'
+
+HBRecorder Librery
+
+ implementation 'com.github.HBiSoft:HBRecorder:0.1.15'
+
+custom Navigation Drawer LIbrary
+implementation 'nl.psdcompany:duo-navigation-drawer:3.0.0'
+implementation 'com.rom4ek:arcnavigationview:2.0.0'
+compile 'com.github.mzule.fantasyslide:library:1.0.5'
+
+Photoediting 
+implementation 'ja.burhanrashid52:photoeditor:1.1.1'
+implementation 'com.github.iamutkarshtiwari:Ananas:1.2.5'
+compile 'com.github.eventtus:photo-editor-android:v1.0'
+
+Scanner library
+implementation 'com.budiyev.android:code-scanner:2.1.0'
+
+Encryptation
+compile 'com.github.simbiose:Encryption:2.0.1'
+
+Recaptcha Librery
+implementation 'com.github.Jackwitwicky:android-captcha-ui:v0.0.2'
+
+balloon Popup 
+https://github.com/skydoves/Balloon
+
+App intro
+url: https://github.com/AppIntro/AppIntro
+
+round image:
+implementation 'com.mikhaellopez:circularimageview:4.2.0'
+ implementation 'de.hdodenhof:circleimageview:3.1.0'
+ transformation  :  implementation 'com.makeramen:roundedimageview:2.3.0' 
+
+
+ScratchView: implementation 'com.github.AnupKumarPanwar:ScratchView:1.3'
+ScratchCardLayout: implementation 'in.codeshuffle.scratchcardlayout:ScratchCardLayout:1.0.8'
+
+countdownview: implementation 'com.github.iwgang:countdownview:2.1.6'
+AwesomeSplash: implementation 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
+Loading: implementation 'com.kaopiz:kprogresshud:1.2.0'
+
+SweetAlert: implementation 'com.github.thomper:sweet-alert-dialog:1.4.0'
+materialish-progress: implementation 'com.pnikosis:materialish-progress:1.7'
+Loading: implementation 'com.github.d-max:spots-dialog:0.7@aar'
+
+CaptchaImageView: implementation 'com.github.jineshfrancs:CaptchaImageView:1.0'
+ndroid-captcha-ui: implementation 'com.github.Jackwitwicky:android-captcha-ui:v0.0.2'
+
+Easy Permission:  implementation 'pub.devrel:easypermissions:3.0.0'
+
+SmoothBottomBar: implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.7.6'
+
+Bottom Style : compile 'com.github.armcha:SpaceNavigationView:1.6.0'
+
+Audio Video libery:  implementation 'com.github.CodeBoy722:MediaFacer:1.0.3' 
+or https://android.jlelse.eu/handling-media-files-with-mediafacer-library-for-android-cd9d2ca0dc68
+
+
+Storage: 
+1. compile 'com.snatik:storage:2.1.0'
+2. compile 'com.vincent.filepicker:MultiTypeFilePicker:latestVersion' 
+3. implementation 'com.github.BalioFVFX:Android-Simple-File-Explorer-Library:2.0.7'
+4. 

@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/54818098/cleartext-http-traffic-not-permitted

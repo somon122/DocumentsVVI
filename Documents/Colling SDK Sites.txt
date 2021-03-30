@@ -1,0 +1,9 @@
+Colling SDK Sites: 
+list: https://morioh.com/p/7f4b1c7df5be
+
+free: https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-android-sdk
+
+1. https://sendbird.com
+2. https://livebox.co.in
+3. https://www.mirrorfly.com/video-call-solution.php
+4. https://docs.quickblox.com/docs

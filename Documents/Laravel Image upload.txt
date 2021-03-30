@@ -1,0 +1,20 @@
+<?php
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class MainController extends Controller
+{
+    public function upload(Request $request)
+    {
+        /**
+         * @var Symfony\Component\HttpFoundation\File\UploadedFile
+         */
+        $uploadedFile = $request->file('image'); 
+
+        if ($uploadedFile->isValid()) {
+            $uploadedFile->move(destinationPath, $fileName);
+        }
+    }
+
+}

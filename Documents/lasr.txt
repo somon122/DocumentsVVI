@@ -1,0 +1,65 @@
+
+
+<div class="cointainer">
+
+
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <div class="card">
+             <div class="card_header">
+
+                <h3 class="m-3">Data Update</h3>
+
+             </div>
+
+                <div class="card-body">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+
+                           <form action="#" method="POST">
+
+                                @csrf
+                                @method('PUT')
+        
+                                  <div class="form-group mb-3">
+                                    <label>Select studentCategory</label>
+                                    <select name="studentCategory" type="userType" name="userType" class="form-control">
+                                                                                      
+                                        <option value='HSC'>HSC</option>
+                                        <option value="HSC">HSC</option>
+                                        <option value="HindiMp3Song">HindiMp3Song</option>
+                                        <option value="EnglishMp3Song">EnglishMp3Song</option>
+                                              
+                                    </select>                                  
+                                </div>
+
+                                  <button type="submit" class="btn btn-success mt-5">Update data</button>
+                                  <a class="btn btn-danger mt-5" href="/dashboard">Cancel</a>
+        
+        
+                            </form>
+        
+                        </div>
+
+
+                    </div>
+    
+    
+                </div>
+    
+    
+    
+            </div>
+
+        </div>
+
+    
+
+    </div>
+
+
+</div>

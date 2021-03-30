@@ -1,0 +1,297 @@
+-----------------------------------com.example.List.java-----------------------------------
+
+package com.example;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+public class List {
+
+@SerializedName("id")
+@Expose
+private String id;
+@SerializedName("imageDesign")
+@Expose
+private String imageDesign;
+@SerializedName("hideImage")
+@Expose
+private String hideImage;
+@SerializedName("backgroundImage")
+@Expose
+private String backgroundImage;
+@SerializedName("earnCoin")
+@Expose
+private String earnCoin;
+@SerializedName("waiting_time")
+@Expose
+private String waitingTime;
+
+public String getId() {
+return id;
+}
+
+public void setId(String id) {
+this.id = id;
+}
+
+public String getImageDesign() {
+return imageDesign;
+}
+
+public void setImageDesign(String imageDesign) {
+this.imageDesign = imageDesign;
+}
+
+public String getHideImage() {
+return hideImage;
+}
+
+public void setHideImage(String hideImage) {
+this.hideImage = hideImage;
+}
+
+public String getBackgroundImage() {
+return backgroundImage;
+}
+
+public void setBackgroundImage(String backgroundImage) {
+this.backgroundImage = backgroundImage;
+}
+
+public String getEarnCoin() {
+return earnCoin;
+}
+
+public void setEarnCoin(String earnCoin) {
+this.earnCoin = earnCoin;
+}
+
+public String getWaitingTime() {
+return waitingTime;
+}
+
+public void setWaitingTime(String waitingTime) {
+this.waitingTime = waitingTime;
+}
+
+}
+-----------------------------------com.example.TaskTimeList.java-----------------------------------
+
+package com.example;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+public class TaskTimeList {
+
+@SerializedName("id")
+@Expose
+private String id;
+@SerializedName("deviceId")
+@Expose
+private String deviceId;
+@SerializedName("taskId")
+@Expose
+private String taskId;
+@SerializedName("witing_time")
+@Expose
+private String witingTime;
+
+public String getId() {
+return id;
+}
+
+public void setId(String id) {
+this.id = id;
+}
+
+public String getDeviceId() {
+return deviceId;
+}
+
+public void setDeviceId(String deviceId) {
+this.deviceId = deviceId;
+}
+
+public String getTaskId() {
+return taskId;
+}
+
+public void setTaskId(String taskId) {
+this.taskId = taskId;
+}
+
+public String getWitingTime() {
+return witingTime;
+}
+
+public void setWitingTime(String witingTime) {
+this.witingTime = witingTime;
+}
+
+}
+-----------------------------------com.example.UserListClass.java-----------------------------------
+
+package com.example;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+public class UserListClass {
+
+@SerializedName("response")
+@Expose
+private String response;
+@SerializedName("list")
+@Expose
+private java.util.List<com.example.List> list = null;
+@SerializedName("task_time_list")
+@Expose
+private java.util.List<TaskTimeList> taskTimeList = null;
+@SerializedName("user_point_retrive")
+@Expose
+private java.util.List<UserPointRetrive> userPointRetrive = null;
+@SerializedName("ctime")
+@Expose
+private Integer ctime;
+
+public String getResponse() {
+return response;
+}
+
+public void setResponse(String response) {
+this.response = response;
+}
+
+public java.util.List<com.example.List> getList() {
+return list;
+}
+
+public void setList(java.util.List<com.example.List> list) {
+this.list = list;
+}
+
+public java.util.List<TaskTimeList> getTaskTimeList() {
+return taskTimeList;
+}
+
+public void setTaskTimeList(java.util.List<TaskTimeList> taskTimeList) {
+this.taskTimeList = taskTimeList;
+}
+
+public java.util.List<UserPointRetrive> getUserPointRetrive() {
+return userPointRetrive;
+}
+
+public void setUserPointRetrive(java.util.List<UserPointRetrive> userPointRetrive) {
+this.userPointRetrive = userPointRetrive;
+}
+
+public Integer getCtime() {
+return ctime;
+}
+
+public void setCtime(Integer ctime) {
+this.ctime = ctime;
+}
+
+}
+-----------------------------------com.example.UserPointRetrive.java-----------------------------------
+
+package com.example;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+public class UserPointRetrive {
+
+@SerializedName("id")
+@Expose
+private String id;
+@SerializedName("userName")
+@Expose
+private String userName;
+@SerializedName("number")
+@Expose
+private String number;
+@SerializedName("email")
+@Expose
+private String email;
+@SerializedName("refer_code")
+@Expose
+private String referCode;
+@SerializedName("device_id")
+@Expose
+private String deviceId;
+@SerializedName("date_time")
+@Expose
+private String dateTime;
+@SerializedName("main_point")
+@Expose
+private String mainPoint;
+
+public String getId() {
+return id;
+}
+
+public void setId(String id) {
+this.id = id;
+}
+
+public String getUserName() {
+return userName;
+}
+
+public void setUserName(String userName) {
+this.userName = userName;
+}
+
+public String getNumber() {
+return number;
+}
+
+public void setNumber(String number) {
+this.number = number;
+}
+
+public String getEmail() {
+return email;
+}
+
+public void setEmail(String email) {
+this.email = email;
+}
+
+public String getReferCode() {
+return referCode;
+}
+
+public void setReferCode(String referCode) {
+this.referCode = referCode;
+}
+
+public String getDeviceId() {
+return deviceId;
+}
+
+public void setDeviceId(String deviceId) {
+this.deviceId = deviceId;
+}
+
+public String getDateTime() {
+return dateTime;
+}
+
+public void setDateTime(String dateTime) {
+this.dateTime = dateTime;
+}
+
+public String getMainPoint() {
+return mainPoint;
+}
+
+public void setMainPoint(String mainPoint) {
+this.mainPoint = mainPoint;
+}
+
+}

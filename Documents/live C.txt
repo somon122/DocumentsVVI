@@ -1,0 +1,10 @@
+id
+
+userId
+result
+tQuestion
+examStatus
+
+tRightAns
+tWrongAns
+date_time

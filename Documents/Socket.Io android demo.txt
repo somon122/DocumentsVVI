@@ -1,0 +1,3 @@
+Socket.Io android demo code: https://socket.io/blog/native-socket-io-and-android/
+Session: http://socketo.me/docs/sessions
+http://socketo.me

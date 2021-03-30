@@ -1,0 +1,18 @@
+Light
+Documentation: https://demos.creative-tim.com/light-bootstrap-dashboard/documentation/tutorial-components.html?_ga=2.174478689.279208564.1599885390-404317082.1599885390
+Video Tutorials: https://www.youtube.com/watch?v=c3M3NQtFyqM&list=PLWxSJr7LCl849Xm4TgHD310seHq2EZNCa
+
+Black with python
+
+Documentation: https://demos.creative-tim.com/black-dashboard-django/docs/1.0/getting-started/getting-started-django.html?_ga=2.166089469.279208564.1599885390-404317082.1599885390
+Video Tutorials:
+
+Black with Laravel
+
+Documentation: https://black-dashboard-laravel.creative-tim.com/docs/getting-started/laravel-setup.html
+Video Tutorials:
+
+Matarials with Laravel
+
+Documentation: https://material-dashboard-laravel.creative-tim.com/docs/getting-started/laravel-setup.html?_ga=2.201864658.279208564.1599885390-404317082.1599885390
+Video Tutorials:

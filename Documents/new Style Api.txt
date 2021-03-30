@@ -1,0 +1,43 @@
+<?php 
+
+include "init.php";
+$refer_code = '';
+
+if (isset($_POST['refer_code'])) {
+
+    $refer_code = $_POST['refer_code'];
+}
+
+if($con) {
+    
+    $sql = "SELECT `main_point`, `last_point`, `refer_point` FROM `farhad_app_user` WHERE `refer_code` = '+8801736277613'";
+    $result = mysqli_query ($con, $sql);
+
+    $response = array();
+
+    if ($result->num_rows > 0) {
+
+        $row = mysqli_fetch_assoc($result);
+        $tmp = array();
+
+        $tmp['status'] = 'Point available';
+        $tmp['main_point'] = $row['main_point'];
+        $tmp['last_point'] = $row['last_point'];
+        $tmp['refer_point'] = $row['refer_point'];
+
+        $response[] = $tmp;
+
+        mysqli_close($con);
+        echo json_encode($response);
+
+    } else {
+
+        $tmp['status'] = "Empty point";
+        $response[] = $tmp;
+
+        mysqli_close($con);
+        echo json_encode($response);
+    }
+}
+
+?>

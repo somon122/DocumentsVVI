@@ -1,0 +1,35 @@
+
+  function bothGet(Request $request){
+
+    $userId = $request->input("userId");
+
+    $data = DB::table('withdraw')
+
+        ->join('deposit', function ($join) {
+            $join->on('withdraw.userId', '=', 'deposit.userId');
+        })
+        ->where('withdraw.userId', $userId)
+        ->select('withdraw.*', 'deposit.transactionId')
+        ->get();
+
+    // $data = DB::table('withdraw')
+    // ->where('userId', $userId)
+    //         ->join('deposit', 'withdraw.userId', '=', 'deposit.userId')
+    //         ->select('withdraw.*', 'deposit.transactionId')
+    //         ->get();
+
+    // $data = DB::table('deposit')
+    //         ->join('withdraw', 'deposit.userId', '=', 'withdraw.userId')
+    //         ->select('deposit.*', 'withdraw.number')
+    //         ->get();
+
+    if($data){
+        return response()->json([
+          "success"=>true,
+          "list"=>$data
+          ]);
+      }else{
+        return response()->json(["success"=>false]);
+  
+      } 
+}

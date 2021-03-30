@@ -1,0 +1,81 @@
+mooncash
+smmmoney
+bongcash
+mongola
+
+1. Smm Money
+url: http://smmmoney.infinitysoft.xyz
+database: techmffr_smmmoney_db
+userName: techmffr_smmmoney
+password: 122smmmoney@
+
+2. Mcash
+url: https://mcash.infinitysoft.xyz
+database: techmffr_mooncash_db
+userName: techmffr_mooncash
+password: 122mooncash@
+
+3. Bongcash
+url: http://bongcash.infinitysoft.xyz
+database: techmffr_bongcash_db
+userName: techmffr_bongcash
+password: 122bongcash@
+
+4. Mongola
+url: https://mongola.infinitysoft.xyz
+database: techmffr_mongola_db
+userName: techmffr_mongola
+password: 122mongola@
+
+5. Twin App
+url: https://infinitysoft.xyz
+database: techmffr_twinapp_db
+userName: techmffr_twinapp
+password: 122twinapp@
+
+
+https://srmoney.infinitysoft.xyz
+
+completed this app
+
+1.Grabe Money
+url: https://grabemoney.infinitysoft.xyz
+database: techmffr_grabemoney_db
+userName: techmffr_grabemoney
+password: 122grabemoney@
+
+
+2.Babul Up
+url: https://babulup.infinitysoft.xyz
+database: techmffr_babulup_db
+userName: techmffr_babulup
+password: 122babulup@
+
+
+3.S.R Money
+url: https://mgola.infinitysoft.xyz
+database: techmffr_srmoney_db
+userName: techmffr_srmoney
+password: 122srmoney@
+
+
+4. Sun Cash
+url: https://suncash.infinitysoft.xyz
+database: techmffr_suncash_db
+userName: techmffr_suncash
+password:122suncash@
+
+
+5.Sure Money
+url: https://suremoney.infinitysoft.xyz
+database: techmffr_suremoney_db
+userName: techmffr_suremoney
+password: 122suremoney@
+
+grabemoney
+
+
+babulup
+srmoney
+suncash
+suremoney

@@ -1,0 +1,10 @@
+Fashion:
+
+userName:maryault_fashion
+dbName:maryault_fashion_db
+password:122fashion#
+host: localhost
+
+adminPanel
+userName: fashion
+password: 122fashion#

@@ -1,0 +1,38 @@
+<?php 
+
+include "init.php";
+
+$refer_code = $_POST ["refer_code"];
+
+if($con){
+           
+$sql = "SELECT main_point FROM user_data WHERE refer_code = '$refer_code'";
+
+$result = mysqli_query ($con,$sql);
+
+$response = array();
+
+
+    if(mysqli_num_rows($result) > 0){
+
+       $row =mysqli_fetch_row($result);
+
+            $point = $row[0];
+            $status = "Point available";
+        array_push($response,array("response"=>$status,"point"=>$point));
+        echo json_encode($response);
+   
+    }else{
+        $status = "empty point";
+
+        array_push($response,array("response"=>$status));
+        echo json_encode($response);
+    }
+
+}
+
+    
+
+mysqli_close($con);
+
+?>

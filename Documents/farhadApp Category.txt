@@ -1,0 +1,22 @@
+table: farhad_app_user
+id
+userName
+device_id
+refer_code
+password
+main_point
+last_point
+refer_point
+daily_check
+
+table: withdraw_list
+
+id
+userName
+refer_code
+withdraw_money
+withdraw_method
+withdraw_number
+withdraw_date
+
+

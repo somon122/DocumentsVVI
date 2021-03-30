@@ -1,0 +1,14 @@
+laravelTutorials: 
+
+1. https://www.youtube.com/channel/UCExO2i-tLU1NyVZD6zOJQlw/playlists?disable_polymer=1
+
+
+Funda Of Web IT:
+
+1. CURD Oparation:  https://www.youtube.com/watch?v=gtbfJmw6aCQ&list=PLRheCL1cXHrstdXITt-iCV6z79MARwhYa
+2. Admin Panal Full tutorials: https://www.youtube.com/watch?v=qQKTUfsKahY&list=PLRheCL1cXHrvJvoJ68PXdJr5tr5Aob2-c&index=3
+
+
+Blog project
+
+https://www.youtube.com/channel/UCwbVAlvrsD2Tpx93bleNbOA

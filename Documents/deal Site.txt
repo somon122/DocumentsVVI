@@ -1,0 +1,4 @@
+
+Deal site
+userName: admin
+password: 122adminDeal#

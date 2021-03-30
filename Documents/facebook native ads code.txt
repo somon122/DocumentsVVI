@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/35025799/facebook-native-ads-in-rycyclerview-android
+
+https://codeexa.com/add-facebook-fan-native-ads-in-recycler-view/

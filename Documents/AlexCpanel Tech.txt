@@ -1,0 +1,39 @@
+https://server163.web-hosting.com/cpanel
+userName: techmffr
+password: J01UQT0CO0bI
+
+2nd Domain: infinitysoft.xyz
+pin no : 3077
+userName: sabbir22
+
+User Nam:sabbir22
+Pass:abc123ABC@
+
+Paly7Game:
+url: http://srmoney.infinitysoft.xyz
+DatabaseName: techmffr_play7game
+HostName: hocalhost
+UserName: techmffr_play7game
+Password: 122play7game@
+
+1.
+DatabaseName: techmffr_treem11
+HostName: hocalhost
+UserName: techmffr_treem11
+Password: 122smileup@
+
+keyStore password: 122alex#
+
+https://smile.infinitysoft.xyz
+
+//============
+
+2. 
+DatabaseName: techmffr_smileup_db
+HostName: hocalhost
+UserName: techmffr_smileup
+Password: 122SmileUp@
+
+keyStore password: 122smileup#
+
+https://smileup.technical-soft.pw

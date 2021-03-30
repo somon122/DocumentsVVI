@@ -1,0 +1,6 @@
+JQuary Element:
+
+1. text(): It is used for change text
+2. html(): it is used for change text as like Html
+3. apend(): It is user for text add after old text
+4. prpend(): It is user for text add before old text

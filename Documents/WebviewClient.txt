@@ -1,0 +1,28 @@
+নতুন করে কিছু বলার নাই। সব বুঝতে পেরেছেন আশা করা যায়। 
+আমাদের এই বিষয়গুলো লাগবেঃ
+১। splash screen আমার কোম্পানির লোগো ও একটা progress bar থাকলেই চলবে
+২। ফুল স্ক্রিন ওয়েব ভিউ। toolbar লাগবে না।
+৩। swipe refresh ফিচার লাগবে পেজ রিফ্রেশের জন্য। 
+৪। backpress এ পিছনে যাবে, exit dialoge দিবে ডাবল backpress এ
+৫। এক পেজ থেকে অন্য পেজে যাওয়ার সময় লোডার দেখাবে স্ক্রীনের মাঝে দিয়ে, তারপর অন্য পেজ এ যাবে। 
+৬। নেট না থাকলে cache থেকে লোড হবে আর নেট না থাকা অবস্থায় নতুন পেজ এ গেলে custom no internet page দেখাবে
+৭। রানটাইম পারমিশন লাগবে,  আমার ওয়েবসাইটে লোকেশন ইউস হয়,  ছবি বা ফাইল আপলোড হয়,  ফাইল ডাউনলোড হয় 
+৮। external link গুলা আলাদা ব্রাউজারে অপেন হবে যেমন সোসাল মিডিয়া পেজ 
+৯। পোস্ট বা প্রোডাক্ট শেয়ার প্রেস করলে  android এ share dialogue অপেন হবে
+১০। ওয়েবভিউ অ্যাপটা যথাসম্ভব smooth scrolling করবে। 
+১১। আমার ওয়েবসাইটে one signal push notification support করে। সেটা android অ্যাপ এও থাকবে।
+
+
+১২। গুগল প্লে তে আপলোড করে দিবেন।
+
+
+WebView Video: https://www.youtube.com/watch?v=PGJKNxoj96E&list=PLRq2TwXbb-Ni8AjUYgi6LulHnIJsevKjR
+
+
+One signal account email: abdullah.limonbau@gmail.com
+Pass:   l1i2m3o4n5
+
+
+https://bootsnipp.com/snippets/eoXRa
+
+libery : https://github.com/Karumi/Dexter

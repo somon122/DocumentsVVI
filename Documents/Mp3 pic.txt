@@ -1,0 +1,5 @@
+MediaMetadataRetriever mmr = new MediaMetadataRetriever();
+mmr.setDataSource(file.getPath());
+byte [] data = mmr.getEmbeddedPicture();
+Bitmap bitmap = BitmapFactory.decodeByteArray(data, 0, data.length);
+imageView.setImageBitmap(bitmap);

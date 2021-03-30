@@ -1,0 +1,10 @@
+https://server54.web-hosting.com/cpanel
+Url: https://www.ideasoft.us
+User: ideawugl
+Pass: FhXXbZiTGAQl
+
+lucky_spin:
+url: https://www.luckyspin.ideasoft.us
+database: ideawugl_lucky_spin_db
+username: ideawugl_luckyspin
+Password: 122luckyspin@

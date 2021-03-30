@@ -1,0 +1,23 @@
+======browser Profile
+
+id
+userName
+emailAddress
+number
+bankName
+bankAccountNo
+facebookID
+instragramID
+referCode
+date_time
+
+
+======withdraw
+id
+userId
+userName
+bankName
+bankAccountNo
+amount
+status
+date_time

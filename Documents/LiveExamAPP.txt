@@ -1,0 +1,11 @@
+UserName: apronseekers
+PassWord: 123@#$Apron$#@321
+
+cPanel link: apronseekers.xyz/cpanel
+
+Database Details: 
+
+password: 122liveexam@
+userName: apronseekers_somon
+host: localhost
+db_name: apronseekers_LiveExam

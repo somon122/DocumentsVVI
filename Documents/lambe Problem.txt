@@ -1,0 +1,1 @@
+Register field: com.google.firebase. FirebaseException: An internal error has occurred. I API key not valid. Please pass a valid API key]

@@ -1,0 +1,70 @@
+PSC Result by SMS With Roll Number
+
+Go To Message Option and Write SMS like Below:
+
+        DPE <Space> Thana / Upazilla Code <Space> Roll Number <Space> 2019 and Send to 16222
+
+    Ex: DPE 15343 14356 2019 and Send this Message To 16222 Number
+
+PSC Result by SMS With Students ID
+
+        DPE <Space) Student ID and Send To 16222
+
+    Ex: DPE 1765487673 and Send To 16222 Number.
+
+So, Students Might be Ask Where We Will get Thana / Upazilla Code. Though, We Will add Bangladesh All Thana and Upazilla Code through PDF File. But, Students Also Can Find Their Examination Thana / Upazilla Code on Their Admit Card.
+
+Also, They Can Find Students ID on Their Admit Card. So, Hope You Will be Find Your Student ID and Get Result Fast by SMS system.
+
+
+JSC (Space) First Three Letters of Board Name (Space) Roll Number (Space) 2019.
+
+After Type This Message, Just Send it To 16222 Number. Remember, In The Board Name Field, you have To Write first Three Letters of Your Education Board. For Example: See below.
+
+JSC DHA 765456 2019 (The Example For Dhaka Board)
+
+But, JDC Result 2018 by SMS have Different Format. So, See below For JDC Result Mobile SMS System.
+
+JDC <space> First Three Letters of Board Name <space> Roll Number <space> 2019
+
+JDC DHA 765456 2019 (The Example For Madrasah Board)
+
+Now, Check Each Board First 3 Letters For Send SMS.
+First 3 Letters of the Various Education Boards of Bangladesh
+Name of the Education Board 	First Three Letters of Board Name
+Barisal Education Board 	BAR
+Chittagong Education Board 	CHI
+Comilla Education Board 	COM
+Dhaka Education Board 	DHA
+Dinajpur Education Board 	DIN
+Jessore Education Board 	JES
+Rajshahi Education Board 	RAJ
+Sylhet Education Board 	SYL
+Madrasah Education Board 	MAD
+
+
+
+SSC Exam Result 2019
+
+Type= SSC<Space>First 3 letters of your board name<Space>Your Roll Number<Space>2019 and then send to 16222
+
+Dakhil Exam Result 2019
+
+Type= Dakhil<Space>First 3 letters of your Madrasha Education Board<Space>Your Roll Number<Space>2019 and then send to 16222
+
+Vocational Exam Result 2019
+
+Type= SSC<Space>First 3 letters of your Technical Education Board<Space>Your Roll Number<Space>2019 and then send to 16222
+
+
+
+
+HSC <SPACE> 1ST THREE LETTERS OF BOARD NAME <SPACE> HSC ROLL <SPACE> 2019
+THEN SEND TO 16222
+
+For Example: HSC DHA 123456 2019
+Then send to 16222
+
+Alim <space> MAD <space> HSC Roll <space> 2019 Then send to 16222
+Example: Alim MAD 123456 2019
+Then send to 16222

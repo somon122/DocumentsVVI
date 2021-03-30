@@ -1,0 +1,4 @@
+library:implementation 'org.jsoup:jsoup:1.10.2'
+
+code:  AppUpdateChecker appUpdateChecker=new AppUpdateChecker(this);  //pass the activity in constructure
+ appUpdateChecker.checkForUpdate(false); //mannual check false here 

@@ -1,0 +1,111 @@
+  <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+        android:id="@+id/spinner1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:smsp_itemColor="#512DA8"
+        app:smsp_itemListColor="#7C4DFF"
+        app:smsp_itemListHintBackgroundColor="#808080"
+        app:smsp_itemListHintColor="#FFFFFF"
+        app:smsp_multilineError="false"
+        app:smsp_selectedItemListColor="#FF5252" />
+
+
+    <com.luseen.spacenavigation.SpaceNavigationView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+         app:active_item_color="@color/colorAccent"
+        app:centre_button_color="@color/centre_button_color"
+        app:centre_button_icon="@drawable/mobile"
+        app:inactive_item_color="@color/colorWhite"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+ @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        spaceNavigationView.onSaveInstanceState(outState);
+    }
+
+    private SmartMaterialSpinner spProvince;
+    private SmartMaterialSpinner spEmptyItem;
+    private List<String> provinceList;
+
+    SpaceNavigationView spaceNavigationView;
+
+
+   spaceNavigationView = (SpaceNavigationView) findViewById(R.id.space);
+        spaceNavigationView.initWithSaveInstanceState(savedInstanceState);
+        spaceNavigationView.addSpaceItem(new SpaceItem("HOME", R.drawable.email));
+        spaceNavigationView.addSpaceItem(new SpaceItem("SEARCH", R.drawable.person));
+        spaceNavigationView.addSpaceItem(new SpaceItem("SEARCH", R.drawable.person));
+        spaceNavigationView.addSpaceItem(new SpaceItem("SEARCH", R.drawable.person));
+        spaceNavigationView.showIconOnly();
+
+        spaceNavigationView.setSpaceOnClickListener(new SpaceOnClickListener() {
+            @Override
+            public void onCentreButtonClick() {
+                Toast.makeText(WalletActivity.this,"onCentreButtonClick", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onItemClick(int itemIndex, String itemName) {
+                Toast.makeText(WalletActivity.this, itemIndex + " " + itemName, Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onItemReselected(int itemIndex, String itemName) {
+                Toast.makeText(WalletActivity.this, itemIndex + " " + itemName, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        spaceNavigationView.setSpaceOnLongClickListener(new SpaceOnLongClickListener() {
+            @Override
+            public void onCentreButtonLongClick() {
+                Toast.makeText(WalletActivity.this,"onCentreButtonLongClick", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onItemLongClick(int itemIndex, String itemName) {
+                Toast.makeText(WalletActivity.this, itemIndex + " " + itemName, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        initSpinner();
+    }
+
+    private void initSpinner() {
+        spProvince = findViewById(R.id.spinner1);
+       // spEmptyItem = findViewById(R.id.sp_empty_item);
+        provinceList = new ArrayList<>();
+
+        provinceList.add("Kampong Thom");
+        provinceList.add("Kampong Cham");
+        provinceList.add("Kampong Chhnang");
+        provinceList.add("Phnom Penh");
+        provinceList.add("Kandal");
+        provinceList.add("Kampot");
+
+        spProvince.setItem(provinceList);
+
+        spProvince.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                Toast.makeText(WalletActivity.this, provinceList.get(position), Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+            }
+        });
+    }
+}
+

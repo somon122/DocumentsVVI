@@ -1,0 +1,3 @@
+ClientId : 747528446328-0207mnngj69f5jj8ono2k30frmpmu5dp.apps.googleusercontent.com
+
+Client Secrat: jOJfpoIiOkquV-Bgb4amwvzZ

@@ -1,0 +1,3 @@
+Export : module.exports = TestClass
+
+import : const TestClass =  require('./testClass.js')

@@ -1,0 +1,3 @@
+Database: ideawugl_twinapp_db
+userName: ideawugl_twinapp
+Password: 122twinapp@

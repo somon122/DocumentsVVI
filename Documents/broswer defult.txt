@@ -1,0 +1,14 @@
+Intent intent = new Intent();
+intent.setComponent(new ComponentName("com.google.android.browser","com.google.android.browser.BrowserActivity"));
+intent.setAction("android.intent.action.VIEW");
+intent.addCategory("android.intent.category.BROWSABLE");
+Uri uri = Uri.parse(url);
+intent.setData(uri);
+try
+{
+    startActivity(intent);
+}
+catch (Exception e)
+{
+   e.printStackTrace();
+}

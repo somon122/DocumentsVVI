@@ -1,0 +1,27 @@
+1.	Sentence
+2.	Parts of Speech
+3.	Noun
+4.	Pronoun
+5.	Adjective
+6.	Verb
+7.	Preposition
+8.	Conjunction
+9.	Interjection
+10.	Tense
+11.	Articles
+12.	Subject verb agreement
+13.	Right form of verbs
+14.	The modal Auxiliaries 
+15.	Clause
+16.	Voice
+17.	Narration
+18.	Transformation of sentence
+19.	Tag Question
+20.	Completing Sentence
+21.	Use of  Suitable connectors
+22.	Suffixes & Prefixes
+23.	Punctuation & Capitalization
+24.	Group Verb
+25.	Idioms and Phrases
+26.	Vocabulary
+27.	Rules of Translation

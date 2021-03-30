@@ -1,0 +1,4 @@
+mTabLayout.setScrollX(mTabLayout.getWidth());
+mTabLayout.getTabAt(lastTabIndex).select();
+
+app:tabMode="scrollable"

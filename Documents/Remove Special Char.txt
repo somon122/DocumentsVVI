@@ -1,0 +1,4 @@
+ String text ="+1234567890";
+         text = text.replaceAll("[^a-zA-Z0-9]", "");
+
+        System.out.println(text);

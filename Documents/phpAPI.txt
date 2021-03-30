@@ -1,0 +1,56 @@
+<?php
+//open connection to mysql db
+$connection = mysqli_connect("localhost","----database USER name----","----database USER password---","---database name--")
+
+or die("Error " . mysqli_error($connection));
+
+//fetch table rows from mysql db
+$sql = "select * from mytab";
+
+$result = mysqli_query($connection, $sql)
+or die("Error in Selecting " . mysqli_error($connection));
+
+//create an array
+// $emparray[] = array();
+while($row =mysqli_fetch_assoc($result))
+{
+
+    $emparray[] = $row;
+}
+//print_r($emparray);
+echo json_encode($emparray);
+
+//close the db connection
+mysqli_close($connection);
+?>
+
+
+
+<?php
+
+//open connection to mysql db
+$connection = mysqli_connect("localhost","----database USER name----","----database USER password---","---database name--")
+or die("Error " . mysqli_error($connection));
+
+
+
+
+// recieved from app
+$mtitle = $_POST['mytitle'];
+$mdate = $_POST['mydate'];
+$mnews = $_POST['mynews'];
+
+
+echo "Response: ".$mtitle." ";
+
+
+$sql_query = "INSERT INTO mytab (title,news,time) VALUES ('$mtitle','$mnews','$mdate')";
+
+
+if (mysqli_query($connection, $sql_query)) {
+    echo "We just posted a vua news from cool app!";
+} else {
+    echo "Error: " . $sql_query . "<br>" . mysqli_error($connection);
+}
+
+mysqli_close($conn);

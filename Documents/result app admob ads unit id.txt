@@ -1,0 +1,4 @@
+ <string name="test_AppUnitId">ca-app-pub-9299514736657905~7425883438</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9299514736657905/1605576894</string>
+    <string name="test_InterstitialAdUnit">ca-app-pub-9299514736657905/8170985245</string>
+    <string name="test_RewardAdUnit">ca-app-pub-9299514736657905/7979413554</string>

@@ -1,0 +1,21 @@
+Biology
+Zoology
+Chemistry1
+Chemistry2
+Physics1
+Physics2
+English
+General_Knowledge
+
+
+
+উদ্ভিদবিজ্ঞান
+প্রাণীবিজ্ঞান
+রসায়ন প্রথম পত্র
+রসায়ন দ্বিতীয় পত্র
+পদার্থবিজ্ঞান প্রথম পত্র
+পদার্থবিজ্ঞান দ্বিতীয় পত্র
+ইংরেজি
+সাধারণ জ্ঞান
+
+

@@ -1,0 +1,4 @@
+database Name : epiz_25175246_bd_grammar
+userName: epiz_25175246
+hostName : sql202.epizy.com
+password : (Your vPanel Password)

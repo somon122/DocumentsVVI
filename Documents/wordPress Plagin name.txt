@@ -1,0 +1,15 @@
+Wordpress Plagins you need most.
+1. Yoast seo on page.
+2. Wordfence security.
+3. Advanced ad.
+4. Migrate guru , All in one migration .
+5. Woocommerce plugin.
+6. Contact form 7, Wp-form, Form builder
+7. Wp-rocket , W3total cache, Auto optimize.
+8. super socializer.
+9. Widget context.
+10. Soliloquy slider.
+11. White label cms.
+12. Elementor.
+13. Polylang-wpml.
+14. wp-reset plugin.

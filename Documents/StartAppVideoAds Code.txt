@@ -1,0 +1,8 @@
+startAppAd.loadAd(AdMode.REWARDED_VIDEO);
+
+startAppAd.setVideoListener(new VideoListener() {
+     @Override
+     public void onVideoCompleted() {
+          // Grant user with the reward
+     }
+});

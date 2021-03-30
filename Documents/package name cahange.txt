@@ -1,0 +1,7 @@
+1. commentout gradle Module firebase depandancy
+2. commentout gradle project firebase depandancy
+3. delete google json file
+
+4. start change packageName
+5. copy paste full package name in gradle
+

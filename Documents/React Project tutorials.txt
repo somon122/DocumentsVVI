@@ -1,0 +1,10 @@
+React Project tutorials:
+1. https://www.youtube.com/watch?v=aI3E8mQa41w&list=PL7NAk9A3ueyXGX00zl7FzuaCAQhQTFPxJ
+2. https://www.youtube.com/watch?v=DLX62G4lc44
+3. https://www.youtube.com/watch?v=l0JbuMVXaTs
+4. https://www.youtube.com/watch?v=oTTOyiwTO2Y&list=PLrwNNiB6YOA1a0_xXvogmvSHrLcanVKkF
+
+5. Soket.io: https://www.youtube.com/watch?v=9GZBoszwLbo
+
+React with php
+1. https://www.youtube.com/watch?v=erl2yw-sq6E&list=PLf8BkXI6hjdjVRr2hdHHdCQ_w0MhQgeJQ&index=1

@@ -1,0 +1,3 @@
+https://github.com/michael-rapp/ChromeLikeTabSwitcher
+
+compile 'com.github.michael-rapp:chrome-like-tab-switcher:0.4.6'

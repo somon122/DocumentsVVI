@@ -1,0 +1,16 @@
+  private void examConfirmAlert() {
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(ExamDashboardActivity.this);
+
+        ExamMarksDistributionModelBinding binding = DataBindingUtil.inflate(LayoutInflater.from(ExamDashboardActivity.this), R.layout. exam_marks_distribution_model, null, false);
+        setContentView(binding.getRoot());
+
+        //View view = LayoutInflater.from(ExamDashboardActivity.this).inflate(R.layout.exam_marks_distribution_model, null);
+       binding.english.setText("English");
+       binding.english.setVisibility(View.GONE);
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+

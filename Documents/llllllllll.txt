@@ -1,0 +1,7 @@
+AppId:  ca-app-pub-7888587621635916~3550340657
+BannarId: ca-app-pub-7888587621635916/6914870593
+InterId: ca-app-pub-7888587621635916/8789745960
+
+ <string name="main_InterstitialAdUnit">ca-app-pub-7888587621635916/8789745960</string>
+    <string name="mainBanner_ad_unit_id">ca-app-pub-7888587621635916/6914870593</string>
+    <string name="main_AppUnitId">ca-app-pub-7888587621635916~3550340657</string>

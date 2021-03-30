@@ -1,0 +1,16 @@
+cPanel Login Details
+
+Username: battlega
+Password: ]t4d84R4Cf(COv
+
+Control Panel URL: https://server5.dhakawebhost.com:2083/
+Once your domain has propogated, you may also use:
+http://www.battlegamingbd.com/cpanel
+
+TournamentApp
+
+Database Name: battlega_tournamentApp_db
+UserName: battlega_tournament
+Password: 122Tournament@
+host: localhost
+

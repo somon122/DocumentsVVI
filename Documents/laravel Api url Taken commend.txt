@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "user",
+        "description": "Hello user how are you Hello user how are you Hello user how are",
+        "date_time": "2021-09-14"
+    }
+]
+ 192.168.154.2
+
+php artisan serve --host=192.168.154.2 --port=80
+
+php artisan serve --host=192.168.0.107 --port=80
+
+php artisan serve --host=192.168.43.34 --port=80
+
+http://192.168.43.34:80
+
+http://192.168.56.1:80/api/notification
+
+
+| UserName: apronseekers
+| PassWord: A!V{}vycG~?c
+
+
+These are the categories
+
+2. Business
+3. Health
+4. Education
+
+6. TravelNews
+7. Lifestyle
+8. Quotes
+
+
+
+

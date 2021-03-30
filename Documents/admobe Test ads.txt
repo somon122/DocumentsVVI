@@ -1,0 +1,10 @@
+test App id : ca-app-pub-3940256099942544~3347511713
+test Bannar: ca-app-pub-3940256099942544/6300978111
+test intertial: ca-app-pub-3940256099942544/1033173712
+test Reward: ca-app-pub-3940256099942544/5224354917
+
+
+    <string name="test_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="test_banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="test_interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="test_videoReward_ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>

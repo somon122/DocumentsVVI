@@ -1,0 +1,15 @@
+Cpanel url: https://server302.web-hosting.com/cpanel
+cPanel username	tsofybkl
+cPanel password	jK2pLenIuKJY
+
+1. HeroCashAppInfo
+Url: https://herocash.tsoft.xyz
+UserName: tsofybkl_herocash
+DataBase: tsofybkl_herocash_db
+Password: 122herocash@
+
+2. tCashAppInfo
+Url: https://tcash.tsoft.xyz
+UserName: tsofybkl_tcash
+DataBase: tsofybkl_tcash_db
+Password: 122tcash@

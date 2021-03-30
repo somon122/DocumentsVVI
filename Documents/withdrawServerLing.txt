@@ -1,0 +1,3 @@
+Delete: https://demosomon.000webhostapp.com/FarhadApps/delete_withdraw.php
+userWithdraw: https://demosomon.000webhostapp.com/FarhadApps/user_read_withdraw.php
+readAllWithdraw: https://demosomon.000webhostapp.com/FarhadApps/read_withdraw.php

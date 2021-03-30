@@ -1,0 +1,7 @@
+Islamic Api:
+
+https://rapidapi.com/developer/new
+email: s
+password: N
+
+Demo: https://github.com/topics/muslim-api

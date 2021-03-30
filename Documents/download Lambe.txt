@@ -1,0 +1,36 @@
+  if(Build.VERSION.SDK_INT>=23){
+            if(!checkPermission()){
+                requestPermission();
+                Toast.makeText(this, "Please Allow Permission to Open File", Toast.LENGTH_SHORT).show();
+                return;
+            }
+        }
+        try{
+            fileurl=PathUtil.getPath(DownloadActivity.this, Uri.parse(fileurl));
+            File file=new File(fileurl);
+            MimeTypeMap mimeTypeMap= MimeTypeMap.getSingleton();
+            String ext= MimeTypeMap.getFileExtensionFromUrl(file.getName());
+            String type=mimeTypeMap.getMimeTypeFromExtension(ext);
+            if(type==null){
+                type="*/*";
+            }
+
+            Intent intent=new Intent(Intent.ACTION_VIEW);
+            if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.N){
+                intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                Uri contne= FileProvider.getUriForFile(DownloadActivity.this,"com.world_tech_point.lambebrowser",file);
+                intent.setDataAndType(contne,type);
+            }
+            else{
+                intent.setDataAndType(Uri.fromFile(file),type);
+            }
+            startActivity(intent);
+        }
+
+
+        catch (Exception e){
+            Toast.makeText(this, "Unable to Open File  "+e, Toast.LENGTH_SHORT).show();
+            e.printStackTrace();
+        }
+
+

@@ -1,0 +1,56 @@
+
+
+1. allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+2. dependencies {
+	        implementation 'com.github.mohammadatif:Animatoo:master'
+}
+
+3.  and out.
+swipe left.
+swipe right.
+split.
+shrink.
+card.
+zoom.
+fade.
+spin.
+diagonal.
+windmill.
+slide up.
+slide down.
+slide left.
+slide right.
+
+
+4. startActivity(new Intent(context, TargetActivity.class));
+Animatoo.animateZoom(context);  //fire the zoom animation
+
+5. @Override
+public void onBackPressed(){
+  super.onBackPressed();
+  Animatoo.animateSlideLeft(context); //fire the slide left animation
+}
+
+
+6. 
+Animatoo.animateZoom(context);
+Animatoo.animateFade(context);
+Animatoo.animateWindmill(context);
+Animatoo.animateSpin(context);
+Animatoo.animateDiagonal(context);
+Animatoo.animateSplit(context);
+Animatoo.animateShrink(context);
+Animatoo.animateCard(context);
+Animatoo.animateInAndOut(context);
+Animatoo.animateSwipeLeft(context);
+Animatoo.animateSwipeRight(context);
+Animatoo.animateSlideLeft(context);
+Animatoo.animateSlideRight(context);
+Animatoo.animateSlideDown(context);
+Animatoo.animateSlideUp(context);

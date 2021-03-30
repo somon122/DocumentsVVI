@@ -1,0 +1,2 @@
+String query; // Get the text from EditText here
+String url = "https://www.google.com/search?q="+query;

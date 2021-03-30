@@ -1,0 +1,5 @@
+URL (options)	https://premium182.web-hosting.com/cpanel
+ 	(if DNS propagation is pending)
+ 	http://najatm3n.com/cpanel
+cPanel username	najaprlz
+cPanel password	3Lpa3HHtV70H

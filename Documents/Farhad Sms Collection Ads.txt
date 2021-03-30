@@ -1,0 +1,22 @@
+FacebookAds
+
+RewardAds : 1165469997177687_1165470767177610
+Interstital: 1165469997177687_1165474733843880
+Bannar : 1165469997177687_1165475257177161
+
+Admob Ads
+
+app id :ca-app-pub-4827628049386824~5128938875
+bannar : ca-app-pub-4827628049386824/8876612190
+Interstital: ca-app-pub-4827628049386824/3624285512
+Reward : ca-app-pub-4827628049386824/9806550483
+
+
+bannar2 : ca-app-pub-4827628049386824/7563530520
+Interstital2: ca-app-pub-4827628049386824/5138631448
+Reward2 : ca-app-pub-4827628049386824/9129206716
+
+
+
+Privacy policy : https://supernicetitle.blogspot.com/2020/01/blog-post.html?m=1&fbclid
+=IwAR3pbziKsHXlOsWXm8D6wnuLJixulJcHJe9qiMOpMYTrGuS66JHId8-4-bc

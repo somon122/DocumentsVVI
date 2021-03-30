@@ -1,0 +1,17 @@
+	id
+	userName		
+	emailAddress	
+	password
+	
+	studentCategory		
+	CollegeName
+	hscRoll
+	hscGPA
+	schoolName
+	sscRoll
+	sscGPA
+	regNo
+	bloodGroup
+	address
+	date
+

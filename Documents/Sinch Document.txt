@@ -1,0 +1,1 @@
+Sinch docu: https://developers.sinch.com/docs/video-android-video-calling

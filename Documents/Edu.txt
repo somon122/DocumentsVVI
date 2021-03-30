@@ -1,0 +1,6 @@
+userN: eduAdmin
+pass: 122eduAdmin#
+
+Online
+userName: admin_edu
+pass: 122bdEducation#

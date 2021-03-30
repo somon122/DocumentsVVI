@@ -1,0 +1,16 @@
+int nightModeFlags =
+    getContext().getResources().getConfiguration().uiMode &
+    Configuration.UI_MODE_NIGHT_MASK;
+switch (nightModeFlags) {
+    case Configuration.UI_MODE_NIGHT_YES:
+         doStuff();
+         break;
+
+    case Configuration.UI_MODE_NIGHT_NO:
+         doStuff();
+         break;
+
+    case Configuration.UI_MODE_NIGHT_UNDEFINED:
+         doStuff();
+         break;
+}

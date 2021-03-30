@@ -1,0 +1,1 @@
+understant install app: https://stackoverflow.com/questions/18752202/check-if-application-is-installed-android

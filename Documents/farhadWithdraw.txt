@@ -1,0 +1,105 @@
+<?php
+
+include "init.php";
+
+$refer_code = $_POST ["refer_code"];
+$point_divider = $_POST ["point_divider"];
+$withdraw_money = $_POST ["withdraw_money"];
+$withdraw_number = $_POST ["withdraw_number"];
+$withdraw_method = $_POST ["withdraw_method"];
+$withdraw_date = $_POST ["withdraw_date"];
+
+if($con){
+
+$sql = "SELECT userName , main_point from farhad_app_user where refer_code = '$refer_code'";
+$result = mysqli_query($con,$sql);
+$response = array();
+
+if(mysqli_num_rows($result) > 0){
+
+    $row =mysqli_fetch_row($result);
+    $userName = $row[0];
+    $point = $row[1];
+
+    $new_point = $point - ($withdraw_money*$point_divider);
+    $error_point = $new_point + ($withdraw_money*$point_divider);
+
+
+    if($new_point < 0){
+
+        $status = "not_enough_balance";
+        array_push($response,array("response"=>$status));
+        echo json_encode($response);
+
+    }else{
+
+    $sql = "UPDATE farhad_app_user SET main_point ='$new_point' WHERE refer_code = '$refer_code'";
+
+    $result = mysqli_query ($con,$sql);
+    
+        if($result){
+    
+            $sql = "INSERT into withdraw_list (userName,refer_code,withdraw_money,withdraw_method,withdraw_number,withdraw_date) 
+            values ('$userName','$refer_code','$withdraw_money','$withdraw_method','$withdraw_number','$withdraw_date')";
+
+            $result = mysqli_query($con,$sql);
+        
+            if($result){
+        
+
+                    $status = "withdraw_success";
+                    array_push($response,array("response"=>$status));
+                    echo json_encode($response);
+        
+                
+            }else{
+              
+                $sql = "UPDATE farhad_app_user SET main_point ='$error_point' WHERE refer_code = '$refer_code'";
+
+                $result = mysqli_query ($con,$sql);
+
+                if($result){
+
+                    $status = "withdraw_field";
+                    array_push($response,array("response"=>$status));
+                    echo json_encode($response);
+
+                }
+
+
+
+            }
+
+           
+        
+        }else{
+            $status = "newPoint_add_field";
+            array_push($response,array("response"=>$status));
+            echo json_encode($response);
+
+        }
+
+    }
+
+   
+}else{
+    $status = "refer_code_error";
+    array_push($response,array("response"=>$status));
+    echo json_encode($response);
+
+}
+
+
+
+
+}else{
+
+    $status = "error_net";
+    array_push($response,array("response"=>$status));
+    echo json_encode($response);
+
+
+}
+mysqli_close($con);
+
+?>

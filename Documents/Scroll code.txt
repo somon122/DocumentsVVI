@@ -1,0 +1,4 @@
+
+https://stackoverflow.com/questions/51439762/scroll-recycler-view-on-button-click-to-specific-position
+
+https://stackoverflow.com/questions/34365137/android-recyclerview-button-click-effect-multiple-times-when-scrolling

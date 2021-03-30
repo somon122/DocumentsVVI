@@ -1,0 +1,3 @@
+Get-ExecutionPolicy -List
+Set-ExecutionPolicy Unrestricted
+Set-ExecutionPolicy Unrestricted -Force

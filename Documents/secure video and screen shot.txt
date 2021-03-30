@@ -1,0 +1,65 @@
+
+getFilesDir() or getCacheDir()
+
+StopScreenShot:   getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
+
+
+data/data/packagename/app_books/file.pdf
+
+//Creating an internal dir;
+File mydir = getApplicationContext().getDir("books", Context.MODE_WORLD_READABLE);
+
+try {
+    File file = new File(mydir, outputFileName);
+    URL downloadUrl = new URL(url);
+    URLConnection ucon = downloadUrl.openConnection();
+    ucon.connect();
+
+    InputStream is = ucon.getInputStream();
+
+    FileOutputStream fos = new FileOutputStream(file);  
+
+    byte data[] = new byte[1024];
+
+    int current = 0;
+    while ((current = is.read(data)) != -1) {
+        fos.write(data, 0, current);
+    }        
+    is.close();
+    fos.flush();
+    fos.close();
+    isFileDownloaded=true;
+} catch (IOException e) {
+    e.printStackTrace();
+    isFileDownloaded = false;
+    System.out.println(outputFileName + " not downloaded");
+}
+if (isFileDownloaded)
+    System.out.println(outputFileName + " downloaded");
+return isFileDownloaded;
+
+
+PackageManager packageManager = getPackageManager();
+
+Intent testIntent = new Intent(Intent.ACTION_VIEW);
+testIntent.setType("application/pdf");
+
+List list = packageManager.queryIntentActivities(testIntent,
+        PackageManager.MATCH_DEFAULT_ONLY);
+
+try {
+    Intent intent = new Intent();
+    intent.setAction(Intent.ACTION_VIEW);                        
+
+    File fileToRead = new File(
+            "/data/data/com.example.filedownloader/app_books/Book.pdf");
+    Uri uri = Uri.fromFile(fileToRead.getAbsoluteFile());
+
+    intent.setDataAndType(uri, "application/pdf");
+    startActivity(intent);
+} catch (Exception ex) {
+    Log.i(getClass().toString(), ex.toString());
+    Toast.makeText(MainActivity.this,
+            "Cannot open your selected file, try again later",
+            Toast.LENGTH_SHORT).show();
+}
